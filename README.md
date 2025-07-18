@@ -1,0 +1,1 @@
+This is EcoEnergy, simple front-end project I made while learning on html and css. While you open the project, skip the content of the about-services-projects pages as I feel more lazy to work on them.
