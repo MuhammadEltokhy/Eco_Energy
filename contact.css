@@ -113,154 +113,165 @@ header li:nth-child(5) a:hover{
         margin: 0 20px;
     }
 }
+.contactana{
+    width: 100%;
+    height: fit-content;
+    background-color: #039b68;
+    color: aliceblue;
+    background: (45deg, transparent, #039b68, url(sketch.png)));
+    display: flex;
+    padding-left: 5%;
+    font-size: large;
+    padding: 10px;
+}
 .send {
-max-width: 1200px;
-margin: 40px auto;
-padding: 20px;
-display: grid;
-grid-template-columns: 1fr 1fr;
-gap: 60px;
-align-items: start;
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+    align-items: start;
 }
 form {
-background: white;
-padding: 40px;
-border-radius: 8px;
-box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 form div {
-margin-bottom: 25px;
+    margin-bottom: 25px;
 }
 label {
-display: block;
-font-size: 16px;
-font-weight: 500;
-color: #555;
-margin-bottom: 8px;
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 8px;
 }
 input[type="text"],
 input[type="email"] {
-width: 100%;
-padding: 12px 15px;
-border: 2px solid #4CAF50;
-border-radius: 4px;
-font-size: 16px;
-background-color: white;
-transition: border-color 0.3s ease;
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #4CAF50;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: white;
+    transition: border-color 0.3s ease;
 }
 input[type="text"]:focus,
 input[type="email"]:focus {
-outline: none;
-border-color: #45a049;
+    outline: none;
+    border-color: #45a049;
 }
 input[name="message"] {
-min-height: 100px;
-resize: vertical;
+    min-height: 100px;
+    resize: vertical;
 }
 button[type="submit"] {
-background-color: #115c2e;
-color: white;
-padding: 12px 24px;
-border: none;
-border-radius: 4px;
-font-size: 16px;
-cursor: pointer;
-transition: background-color 0.3s ease;
+    background-color: #115c2e;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 button[type="submit"]:hover {
-background-color: #6cdb7b;
+    background-color: #6cdb7b;
 }
 article {
-background: white;
-padding: 40px;
-border-radius: 8px;
-box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 .head {
-font-size: 24px;
-font-weight: 600;
-color: #333;
-margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 20px;
 }
 article p {
-margin-bottom: 15px;
-color: #666;
-font-size: 16px;
+    margin-bottom: 15px;
+    color: #666;
+    font-size: 16px;
 }
 .facebook,
 .LinkedIn {
-display: inline-block;
-width: 40px;
-height: 40px;
-margin-right: 10px;
-margin-bottom: 15px;
-border-radius: 50%;
-position: relative;
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+    border-radius: 50%;
+    position: relative;
 }
 .facebook {
-background-color: #3b5998;
+    background-color: #3b5998;
 }
 .LinkedIn {
-background-color: #0077b5;
+    background-color: #0077b5;
 }
 .facebook::after {
-content: "f";
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: white;
-font-weight: bold;
-font-size: 18px;
+    content: "f";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
 }
 .LinkedIn::after {
-content: "in";
-position: absolute;
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%);
-color: white;
-font-weight: bold;
-font-size: 12px;
+    content: "in";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
 }
 footer {
-background-color: #06580a;
-color: white;
-padding: 40px 0;
-margin-top: 60px;
+    background-color: #06580a;
+    color: white;
+    padding: 40px 0;
+    margin-top: 60px;
 }
 .foott {
-text-align: center;
-max-width: 1200px;
-margin: 0 auto;
-padding: 0 20px;
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
 }
 .foott a {
-color: #4CAF50;
-text-decoration: none;
+    color: #4CAF50;
+    text-decoration: none;
 }
 .foott a:hover {
-text-decoration: underline;
+    text-decoration: underline;
 }
 @media (max-width: 768px) {
-.send {
-grid-template-columns: 1fr;
-gap: 30px;
-margin: 20px auto;
-padding: 15px;
-}
-form,
-article {
-padding: 25px;
-}
+    .send {
+        grid-template-columns: 1fr;
+        gap: 30px;
+        margin: 20px auto;
+        padding: 15px;
+    }
+    form,
+    article {
+        padding: 25px;
+    }
 }
 input::placeholder {
-color: #999;
-font-style: italic;
+    color: #999;
+    font-style: italic;
 }
 article p:not(.head) {
-line-height: 1.5;
+    line-height: 1.5;
 }
 form div:last-of-type {
-margin-bottom: 30px;
+    margin-bottom: 30px;
 }
