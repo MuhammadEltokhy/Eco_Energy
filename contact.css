@@ -58,7 +58,7 @@ header ul li a{
     text-decoration: none;
     color: black;
 }
-header ul li:nth-child(2) a{
+header ul li:nth-child(even) a{
     background-color: #039b68;
     color: rgb(255, 255, 255);
     border-radius: 4px;
@@ -66,7 +66,7 @@ header ul li:nth-child(2) a{
     margin: 0 3px;
     border: 1px solid transparent initial;
 }
-header ul li:nth-child(1) a{
+header ul li:nth-child(odd) a{
     border-radius: 4px;
     padding: 10px;
     margin: 0 3px;
@@ -257,4 +257,5 @@ article p:not(.head) {
 form div:last-of-type {
     margin-bottom: 30px;
 }
+
 
