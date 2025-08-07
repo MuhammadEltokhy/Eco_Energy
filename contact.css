@@ -58,27 +58,9 @@ header ul li a{
     text-decoration: none;
     color: black;
 }
-header ul li:nth-child(5) a{
+header ul li:nth-child(2) a{
     background-color: #039b68;
     color: rgb(255, 255, 255);
-    border-radius: 4px;
-    padding: 10px;
-    margin: 0 3px;
-    border: 1px solid transparent initial;
-}
-header ul li:nth-child(2) a{
-    border-radius: 4px;
-    padding: 10px;
-    margin: 0 3px;
-    border: 1px solid transparent initial;
-}
-header ul li:nth-child(3) a{
-    border-radius: 4px;
-    padding: 10px;
-    margin: 0 3px;
-    border: 1px solid transparent initial;
-}
-header ul li:nth-child(4) a{
     border-radius: 4px;
     padding: 10px;
     margin: 0 3px;
@@ -97,7 +79,7 @@ header a:hover{
     color: #09c72c;
     transition: all 1s ease;
 }
-header li:nth-child(5) a:hover{
+header li:nth-child(2) a:hover{
     border-radius: 4px;
     border: 2px solid #15e33b;
     background-color: #fff;
@@ -275,3 +257,4 @@ article p:not(.head) {
 form div:last-of-type {
     margin-bottom: 30px;
 }
+
